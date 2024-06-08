@@ -58,4 +58,4 @@ const search = async (query, count = 1) => {
   return (await store).similaritySearch(query, count)
 }
 
-console.log(await search('something cute anf fluffy'))
+console.log(await search(''))
